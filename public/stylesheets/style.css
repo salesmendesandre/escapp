@@ -31,9 +31,9 @@ button.white, input[type=submit].white {
   border-color: white !important;
 }
 button.login, input[type=submit].login {
-  background-color: #fff;
-  color: #000;
-  border: #fff;
+  background-color: white !important;
+  color: #000 !important;
+  border-color: white !important;
   text-align: center;
   font-size: medium;
   border-radius: 20px;
@@ -48,9 +48,9 @@ button.registro, input[type=submit].registro {
   width: 100%;
   height: 42px;
   outline: 0;
-  background-color: #fff;
+  background-color: #FAC855;
   color: #000;
-  border: #fff;
+  border: #FAC855;
 }
 button.editButton, input[type=submit].editButton {
   margin: 0;
@@ -62,8 +62,8 @@ button.editButton, input[type=submit].editButton {
   padding: 10px;
   text-align: center;
   outline: 0;
-  background-color: #fff;
-  border-color: #fff;
+  background-color: #FAC855;
+  border-color: #FAC855;
   color: #000;
 }
 button.cloneButton, input[type=submit].cloneButton {
@@ -76,9 +76,9 @@ button.cloneButton, input[type=submit].cloneButton {
   padding: 10px;
   text-align: center;
   outline: 0;
-  background-color: #000;
-  border-color: #000;
-  color: #000;
+  background-color: white !important;
+  color: #000 !important;
+  border-color: white !important;
 }
 button.deleteButton, input[type=submit].deleteButton {
   margin: 0;
@@ -90,9 +90,9 @@ button.deleteButton, input[type=submit].deleteButton {
   padding: 10px;
   text-align: center;
   outline: 0;
-  background-color: #fff;
+  background-color: #F47E84;
   color: #000;
-  border-color: #fff;
+  border-color: #F47E84;
 }
 button.playButton, input[type=submit].playButton {
   background-color: #FF6347;
@@ -115,27 +115,27 @@ button.stopButton, input[type=submit].stopButton {
   padding: 10px;
   text-align: center;
   outline: 0;
-  background-color: #fff;
-  border-color: #fff;
+  background-color: #F3945E;
+  border-color: #F3945E;
   color: #000;
 }
 button.acceptButton, input[type=submit].acceptButton {
-  background-color: #fff;
+  background-color: #48C18E;
   color: #000;
   font: 22px "Gugi", "Lucida Grande", Helvetica, Arial, sans-serif;
   border-radius: 5px;
-  border-color: #fff;
+  border-color: #48C18E;
   border-style: solid;
   padding: 10px;
   text-align: center;
   outline: 0;
 }
 button.compartirButton, input[type=submit].compartirButton {
-  background-color: #fff;
+  background-color: #36A2EB;
   color: #000;
   font: 22px "Gugi", "Lucida Grande", Helvetica, Arial, sans-serif;
   border-radius: 5px;
-  border-color: #fff;
+  border-color: #36A2EB;
   border-style: solid;
   padding: 10px;
   text-align: center;
@@ -236,19 +236,19 @@ button[type=submit], input[type=submit][type=submit] {
   box-sizing: content-box;
 }
 .main.summary .flex-container.analytics-menu .flex-container-right .card-container .card.nParticipants {
-  color: #fff;
+  color: #FAC855;
 }
 .main.summary .flex-container.analytics-menu .flex-container-right .card-container .card.avgTeamSize {
-  color: #fff;
+  color: #F47E84;
 }
 .main.summary .flex-container.analytics-menu .flex-container-right .card-container .card.sucessRate {
-  color: #fff;
+  color: #48C18E;
 }
 .main.summary .flex-container.analytics-menu .flex-container-right .card-container .card.bestTime {
   color: #000;
 }
 .main.summary .flex-container.analytics-menu .flex-container-right .card-container .card.avgReqHints {
-  color: #fff;
+  color: #F3945E;
 }
 .main.summary .flex-container.analytics-menu .flex-container-right .card-container .card .card-title {
   font-family: Gugi, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -322,7 +322,7 @@ button[type=submit], input[type=submit][type=submit] {
   background-color: white;
 }
 #mainSection .main.step-appearance .half-flex-container .left-half-flex .buttonApp.selected {
-  border-color: #fff;
+  border-color: #FAC855;
 }
 #mainSection .main.step-appearance .half-flex-container .right-half-flex {
   width: 50%;
@@ -385,7 +385,7 @@ button[type=submit], input[type=submit][type=submit] {
   outline: 0;
   border-radius: 25px !important;
   padding: 8px 25px !important;
-  background-color: #fff;
+  background-color: #FAC855;
   color: #000;
   font-family: Gugi, Lato, sans-serif;
   border: none;
@@ -395,7 +395,7 @@ button[type=submit], input[type=submit][type=submit] {
   vertical-align: middle;
 }
 #root .App .buttons button:first-child {
-  background-color: #fff;
+  background-color: #48C18E;
   margin-right: 10px;
 }
 
@@ -452,7 +452,7 @@ button[type=submit], input[type=submit][type=submit] {
   color: #333;
 }
 .main.step-turnos #datepicker .ui-datepicker-inline.ui-datepicker th:nth-child(6), .main.step-turnos #datepicker .ui-datepicker-inline.ui-datepicker th:nth-child(7) {
-  color: #fff;
+  color: #F47E84;
 }
 .main.step-turnos #datepicker .ui-datepicker-inline.ui-datepicker * {
   font-family: "Lato", sans-serif;
@@ -465,7 +465,7 @@ button[type=submit], input[type=submit][type=submit] {
 }
 .main.step-turnos #datepicker .ui-datepicker-inline.ui-datepicker td.turn-day-highlight .ui-state-default, .main.step-turnos #datepicker .ui-datepicker-inline.ui-datepicker a.turn-day-highlight .ui-state-default {
   color: blue;
-  background-color: #fff;
+  background-color: #FAC855;
   border-radius: 50%;
   color: black;
 }
@@ -488,7 +488,7 @@ button[type=submit], input[type=submit][type=submit] {
   width: 0;
   height: 0;
   border: 10px solid transparent;
-  border-right-color: #fff;
+  border-right-color: #F3945E;
   content: "";
 }
 .main.step-turnos #datepicker .ui-datepicker-inline.ui-datepicker .ui-datepicker-header .ui-datepicker-prev span.ui-icon, .main.step-turnos #datepicker .ui-datepicker-inline.ui-datepicker .ui-datepicker-header .ui-datepicker-next span.ui-icon {
@@ -513,7 +513,7 @@ button[type=submit], input[type=submit][type=submit] {
 }
 .main.step-turnos #datepicker .ui-datepicker-inline.ui-datepicker .ui-datepicker-header .ui-datepicker-next span::before {
   border-right-color: transparent;
-  border-left-color: #fff;
+  border-left-color: #F3945E;
 }
 .main.step-turnos #datepicker .ui-datepicker-inline.ui-datepicker .ui-datepicker-header.ui-widget-header {
   background-color: white;
@@ -527,10 +527,10 @@ button[type=submit], input[type=submit][type=submit] {
   border-color: transparent;
 }
 .main.step-turnos #datepicker .ui-datepicker-inline.ui-datepicker .ui-state-highlight:not(.ui-state-active) {
-  color: #fff;
+  color: #F47E84;
 }
 .main.step-turnos #datepicker .ui-datepicker-inline.ui-datepicker .ui-state-active {
-  background-color: #fff !important;
+  background-color: #48C18E !important;
   border-radius: 50%;
   color: black;
 }
@@ -592,21 +592,21 @@ body .daterangepicker {
   z-index: 9999;
 }
 body .daterangepicker td.active {
-  background-color: #fff;
+  background-color: #F3945E;
   color: white;
 }
 body .daterangepicker td.active:hover, body .daterangepicker td.active:active, body .daterangepicker td.active:focus {
-  background-color: #fff;
+  background-color: #F3945E;
   color: white;
 }
 body .daterangepicker td.in-range:not(.active) {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(243, 148, 94, 0.4);
 }
 body .daterangepicker td.off {
   visibility: hidden;
 }
 body .daterangepicker .applyBtn {
-  color: #fff;
+  color: #48C18E;
 }
 body .daterangepicker .calendar-time {
   width: auto;
@@ -655,7 +655,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   margin-bottom: 20px;
 }
 .main #dialog-preview-api h4, .main #dialog-share h4, .main #dialog-start h4 {
-  color: #fff;
+  color: #48C18E;
   font-size: 20px;
   margin-top: 5px;
 }
@@ -665,10 +665,10 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 }
 .main #dialog-preview-api .api-table td code, .main #dialog-preview-api .api-table th code, .main #dialog-share .api-table td code, .main #dialog-share .api-table th code, .main #dialog-start .api-table td code, .main #dialog-start .api-table th code {
   font-family: monospace;
-  color: #fff;
+  color: #F47E84;
 }
 .main #dialog-preview-api .api-table th, .main #dialog-share .api-table th, .main #dialog-start .api-table th {
-  color: #fff;
+  color: #F47E84;
   font-weight: 600;
   text-align: left;
 }
@@ -695,11 +695,11 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   background: transparent;
   border: none;
   font-size: 1px;
-  color: #fff;
+  color: #F3945E;
   vertical-align: middle;
 }
 .main #dialog-preview-api .qr, .main #dialog-share .qr, .main #dialog-start .qr {
-  color: #fff;
+  color: #F47E84;
 }
 .main #dialog-preview-api .start-er, .main #dialog-share .start-er, .main #dialog-start .start-er {
   text-align: center;
@@ -720,10 +720,10 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   vertical-align: bottom;
 }
 .main #dialog-preview-api a, .main #dialog-share a, .main #dialog-start a {
-  color: #fff;
+  color: #48C18E;
 }
 .main #dialog-preview-api .hl, .main #dialog-share .hl, .main #dialog-start .hl {
-  color: #fff;
+  color: #36A2EB;
 }
 .main .dialog-turno {
   background: white;
@@ -798,7 +798,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 .main .ui-dialog .ui-dialog-titlebar {
   background: white !important;
   border-color: white !important;
-  color: #fff;
+  color: #F47E84;
 }
 .main .ui-dialog {
   z-index: 9998;
@@ -1074,13 +1074,13 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   font-size: 20px;
   margin-bottom: 20px;
   margin-top: 30px;
-  color: #fff;
+  color: #FAC855;
 }
 #mainSection .main.escapeRoomShow .menuERShow .menuERShowLeft .menuERactionList li a {
   line-height: 24px;
 }
 #mainSection .main.escapeRoomShow .menuERShow .menuERShowLeft .menuERactionList li a:hover {
-  color: #fff;
+  color: #48C18E;
 }
 #mainSection .main.escapeRoomShow .menuERShow .menuERShowLeft .menuERactionList li .showMenuButton {
   font-size: 16px;
@@ -1145,25 +1145,25 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .api-table td code, #mainSection .main.escapeRoomShow #dialog-preview-api .api-table th code, #mainSection .main.escapeRoomShow #dialog-share .api-table td code, #mainSection .main.escapeRoomShow #dialog-share .api-table th code {
   font-family: monospace;
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .api-table td code > *, #mainSection .main.escapeRoomShow #dialog-preview-api .api-table th code > *, #mainSection .main.escapeRoomShow #dialog-share .api-table td code > *, #mainSection .main.escapeRoomShow #dialog-share .api-table th code > * {
   font-family: monospace;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .api-table td code.api-method, #mainSection .main.escapeRoomShow #dialog-preview-api .api-table th code.api-method, #mainSection .main.escapeRoomShow #dialog-share .api-table td code.api-method, #mainSection .main.escapeRoomShow #dialog-share .api-table th code.api-method {
-  color: #fff;
+  color: #36A2EB;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .api-table td.api-key, #mainSection .main.escapeRoomShow #dialog-preview-api .api-table th.api-key, #mainSection .main.escapeRoomShow #dialog-share .api-table td.api-key, #mainSection .main.escapeRoomShow #dialog-share .api-table th.api-key {
   padding-right: 10px;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .api-table td.api-key code, #mainSection .main.escapeRoomShow #dialog-preview-api .api-table th.api-key code, #mainSection .main.escapeRoomShow #dialog-share .api-table td.api-key code, #mainSection .main.escapeRoomShow #dialog-share .api-table th.api-key code {
-  color: #fff;
+  color: #48C18E;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .api-table td.api-value, #mainSection .main.escapeRoomShow #dialog-preview-api .api-table th.api-value, #mainSection .main.escapeRoomShow #dialog-share .api-table td.api-value, #mainSection .main.escapeRoomShow #dialog-share .api-table th.api-value {
   padding-right: 10px;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .api-table td.api-value code, #mainSection .main.escapeRoomShow #dialog-preview-api .api-table th.api-value code, #mainSection .main.escapeRoomShow #dialog-share .api-table td.api-value code, #mainSection .main.escapeRoomShow #dialog-share .api-table th.api-value code {
-  color: #fff;
+  color: #36A2EB;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .api-table th, #mainSection .main.escapeRoomShow #dialog-share .api-table th {
   color: #000;
@@ -1176,13 +1176,13 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   font-size: 14px;
   font-family: monospace;
   background-color: white;
-  border: 1px solid #fff;
+  border: 1px solid #F3945E;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api pre.sample-fetch span, #mainSection .main.escapeRoomShow #dialog-share pre.sample-fetch span {
   font-family: monospace;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api pre.sample-fetch .code-highlighted, #mainSection .main.escapeRoomShow #dialog-share pre.sample-fetch .code-highlighted {
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .show_link, #mainSection .main.escapeRoomShow #dialog-share .show_link {
   font-family: "Lato", sans-serif;
@@ -1201,11 +1201,11 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   background: transparent;
   border: none;
   font-size: 1px;
-  color: #fff;
+  color: #F3945E;
   vertical-align: middle;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .qr, #mainSection .main.escapeRoomShow #dialog-share .qr {
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .join-turno-list, #mainSection .main.escapeRoomShow #dialog-share .join-turno-list {
   color: #000;
@@ -1214,7 +1214,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   padding-left: 10px;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .join-turno-list b, #mainSection .main.escapeRoomShow #dialog-share .join-turno-list b {
-  color: #fff;
+  color: #48C18E;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .join-instructions, #mainSection .main.escapeRoomShow #dialog-share .join-instructions {
   font-family: "Lato", sans-serif;
@@ -1225,11 +1225,11 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   margin-bottom: 0px;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .join-instructions a, #mainSection .main.escapeRoomShow #dialog-share .join-instructions a {
-  color: #fff;
+  color: #48C18E;
   font-family: inherit;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .join-instructions .hl, #mainSection .main.escapeRoomShow #dialog-share .join-instructions .hl {
-  color: #fff;
+  color: #36A2EB;
   font-family: inherit;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .api-description, #mainSection .main.escapeRoomShow #dialog-share .api-description {
@@ -1238,7 +1238,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   color: #000;
 }
 #mainSection .main.escapeRoomShow #dialog-preview-api .api-description code, #mainSection .main.escapeRoomShow #dialog-share .api-description code {
-  color: #fff;
+  color: #48C18E;
   font-family: monospace;
 }
 #mainSection .main.escapeRoomShow .ui-dialog {
@@ -1263,7 +1263,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 #mainSection .main.escapeRoomShow .ui-dialog .ui-dialog-titlebar, #mainSection .main.escapeRoomShow h3 {
   background: white !important;
   border-color: white !important;
-  color: #fff;
+  color: #F47E84;
 }
 
 @media (max-width: 900px) {
@@ -1357,10 +1357,10 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   padding: 9px;
   border-radius: 50%;
   line-height: 1px;
-  background-color: #fff;
+  background-color: #48C18E;
 }
 .escapeRooms .flexBoxEscapeRooms .escapeRoomItemWrapper .escapeRoomItem .sign.add {
-  background-color: #fff;
+  background-color: #FAC855;
 }
 .escapeRooms .flexBoxEscapeRooms .escapeRoomItemWrapper .escapeRoomItem .erFoto {
   width: 100%;
@@ -1797,7 +1797,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 #mainSection .main.step-hints .ui-dialog .ui-dialog-titlebar {
   background: white !important;
   border-color: white !important;
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main.step-hints #dialog-rescorm {
   padding: 0;
@@ -1814,22 +1814,22 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   font-size: 18px;
 }
 #mainSection .main.inspiration a.resources {
-  color: #fff;
+  color: #FAC855;
 }
 #mainSection .main.inspiration *:not(i):not(h2) {
   font-family: Lato, sans-serif;
 }
 #mainSection .main.inspiration h3 {
-  color: #fff;
+  color: #48C18E;
   font-weight: bold;
 }
 #mainSection .main.inspiration h4 {
-  color: #fff;
+  color: #FAC855;
   font-weight: bold;
   font-size: 24px;
 }
 #mainSection .main.inspiration b, #mainSection .main.inspiration strong {
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main.inspiration .flex-images {
   display: flex;
@@ -1867,7 +1867,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 }
 #mainSection .main.inspiration .specialList li::before {
   content: "•";
-  color: #fff;
+  color: #FAC855;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -1892,7 +1892,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 }
 #mainSection .main.inspiration .flex-horizontal .square span {
   font-weight: bold;
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main.inspiration .icon {
   width: 80px;
@@ -1994,7 +1994,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 }
 #mainSection .main.step-instructions .building-block .block-config {
   width: 30px;
-  background-color: #fff;
+  background-color: #FAC855;
   top: 5px;
   left: -35px;
   position: absolute;
@@ -2085,7 +2085,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 #mainSection .main.step-instructions .ui-dialog .ui-dialog-titlebar {
   background: white !important;
   border-color: white !important;
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main.step-instructions .gallery-msg {
   color: #000;
@@ -2113,7 +2113,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   margin-left: 25px;
   text-align: left;
   width: 70%;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #F47E84;
   border-radius: 0px;
   padding-bottom: 0px;
   height: 2em;
@@ -2121,8 +2121,8 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   caret-color: #000;
 }
 #mainSection .main.step-instructions .gallery-msg .fileUrlInput:hover, #mainSection .main.step-instructions .gallery-msg .fileUrlInput:active, #mainSection .main.step-instructions .gallery-msg .fileUrlInput:focus {
-  color: #fff !important;
-  -webkit-text-fill-color: #fff !important;
+  color: #F47E84 !important;
+  -webkit-text-fill-color: #F47E84 !important;
 }
 #mainSection .main.step-instructions #uploadNew {
   margin: 0;
@@ -2137,12 +2137,12 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   border-radius: 25px !important;
   padding: 8px 20px !important;
   font-size: 15px;
-  background-color: #fff;
+  background-color: #FAC855;
 }
 #mainSection .main.step-instructions #assetsForm {
   margin-left: 50px;
   margin-right: 20px;
-  border: 2px dashed #fff;
+  border: 2px dashed #FAC855;
   padding: 0px;
 }
 #mainSection .main.step-instructions #assetsForm .dz-preview * {
@@ -2165,7 +2165,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   font-family: Lato, sans-serif;
 }
 #mainSection .main.step-instructions #assetsForm .dz-preview.file-selected .dz-image {
-  border: 2px solid #fff;
+  border: 2px solid #48C18E;
 }
 #mainSection .main.step-instructions .ui-dialog-buttonset {
   text-align: right;
@@ -2186,10 +2186,10 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   font-size: 18px;
 }
 #mainSection .main.step-instructions .ui-dialog-buttonset .ui-button:first-child {
-  background-color: #fff;
+  background-color: #48C18E;
 }
 #mainSection .main.step-instructions .ui-dialog-buttonset .ui-button:last-child {
-  background-color: #fff;
+  background-color: #F47E84;
 }
 #mainSection .main.step-instructions .gamification-elements {
   padding: 20px;
@@ -2217,7 +2217,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   justify-content: space-between;
 }
 #mainSection .main.step-instructions .gamification-elements .gamification-element.gamification-element-selected {
-  border: 2px solid #fff;
+  border: 2px solid #48C18E;
 }
 #mainSection .main.step-instructions .gamification-elements .gamification-element .gamification-element-title {
   text-align: center;
@@ -2312,7 +2312,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   padding: 15px;
 }
 #mainSection .main.step-instructions #dialog-config .config-list .config-paragraph {
-  color: #fff;
+  color: #48C18E;
 }
 #mainSection .main.step-instructions #dialog-config .config-list .puzzle-preview-select {
   font-family: Lato !important;
@@ -2354,7 +2354,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   padding-bottom: 0px;
 }
 #mainSection .main.step-instructions #dialog-themes .theme-list .theme-item.selected-theme {
-  border-color: #fff;
+  border-color: #48C18E;
 }
 #mainSection .main.step-instructions #dialog-themes .theme-list .theme-item img {
   width: 100%;
@@ -2441,7 +2441,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   margin: 10px;
   width: 40px;
   height: 40px;
-  background-color: #fff;
+  background-color: #FAC855;
   border-radius: 50%;
   vertical-align: middle;
   line-height: 30px;
@@ -2490,7 +2490,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   text-align: center;
 }
 #mainSection .main.student .dialog .teamCarouselItem.selected {
-  border: 2px solid #fff;
+  border: 2px solid #FAC855;
 }
 #mainSection .main.student .dialog #teamCarouselItems-hidden {
   display: none;
@@ -2519,7 +2519,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #fff;
+  color: #FAC855;
 }
 #mainSection .main.student .teamName, #mainSection .main.student .tokenInput {
   overflow: hidden;
@@ -2660,7 +2660,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   text-decoration: underline;
 }
 #mainSection .main .breadcrumbs-container .breadcrumbs .material-icons {
-  color: #fff;
+  color: #48C18E;
 }
 #mainSection .main .breadcrumbs-container .breadcrumbs .select-wrapper {
   position: relative;
@@ -2764,13 +2764,13 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   font-size: 16px;
 }
 #mainSection .main .connection.connected {
-  color: #fff;
+  color: #48C18E;
 }
 #mainSection .main .connection.disconnected {
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main .connection.waiting {
-  color: #fff;
+  color: #FAC855;
 }
 
 @media (min-width: 1200px) {
@@ -2914,21 +2914,21 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   display: none;
 }
 #mainSection .main.participants .filters input[type=submit].participants-button.download-button, #mainSection .main.participants .filters button.participants-button.download-button {
-  background-color: #fff;
+  background-color: #F47E84;
   color: #000;
-  border-color: #fff;
+  border-color: #F47E84;
   border-style: solid;
 }
 #mainSection .main.participants .filters input[type=submit].participants-button.attendance-button, #mainSection .main.participants .filters button.participants-button.attendance-button {
-  background-color: #fff;
+  background-color: #48C18E;
   color: #000;
-  border-color: #fff;
+  border-color: #48C18E;
   border-style: solid;
 }
 #mainSection .main.participants .filters input[type=submit].participants-button.attendance-all-button, #mainSection .main.participants .filters button.participants-button.attendance-all-button {
-  background-color: #fff;
+  background-color: #FAC855;
   color: #000;
-  border-color: #fff;
+  border-color: #FAC855;
   border-style: solid;
 }
 #mainSection .main.participants .filters input[type=submit].participants-button.filter-button, #mainSection .main.participants .filters button.participants-button.filter-button {
@@ -2938,15 +2938,15 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   border-style: solid;
 }
 #mainSection .main.participants .filters input[type=submit].participants-button.see-button, #mainSection .main.participants .filters button.participants-button.see-button {
-  background-color: #fff;
+  background-color: #36A2EB;
   color: #000;
-  border-color: #fff;
+  border-color: #36A2EB;
   border-style: solid;
 }
 #mainSection .main.participants .filters input[type=submit].participants-button.msg-button, #mainSection .main.participants .filters button.participants-button.msg-button {
-  background-color: #fff;
+  background-color: #FAC855;
   color: #000;
-  border-color: #fff;
+  border-color: #FAC855;
   border-style: solid;
 }
 #mainSection .main.participants .filters select {
@@ -3117,7 +3117,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   border-radius: 50%;
   padding: 10px;
   margin: -16px;
-  background: #fff;
+  background: #FAC855;
 }
 #mainSection .main .puzzle-card .handle.material-icons {
   color: #000;
@@ -3137,10 +3137,10 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   padding: 0;
 }
 #mainSection .main .puzzle-card .delete-puzzle .material-icons {
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main .puzzle-card .material-icons {
-  color: #fff;
+  color: #48C18E;
 }
 #mainSection .main .puzzle-card h2 {
   font-size: 22px;
@@ -3197,7 +3197,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   padding: 0;
 }
 #mainSection .main .puzzle-card .hint-list .hint-li .delete-hint .material-icons {
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main .puzzle-card .hint-list .hint-category {
   display: flex;
@@ -3207,7 +3207,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   margin-top: 30px;
 }
 #mainSection .main .puzzle-card .hint-list .hint-category .handle-cat {
-  color: #fff;
+  color: #36A2EB;
   position: absolute;
 }
 #mainSection .main .puzzle-card .hint-list .hint-category .delete-cat {
@@ -3216,7 +3216,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   padding: 0;
 }
 #mainSection .main .puzzle-card .hint-list .hint-category .delete-cat .material-icons {
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main .puzzle-card .hint-list .hint-category .hint-category-name {
   font-size: 18px !important;
@@ -3230,7 +3230,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   font-size: 16px;
 }
 #mainSection .main .puzzle-card .add-hint .material-icons {
-  color: #fff;
+  color: #FAC855;
 }
 #mainSection .main #add-puzzle-form {
   text-align: right;
@@ -3242,7 +3242,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 #mainSection .main .flex-table-wrapper .flex-table {
   display: flex;
   flex-direction: column;
-  background-color: #000;
+  background-color: #9091A6;
   color: #000;
   border: 3px solid white;
   border-radius: 10px;
@@ -3303,7 +3303,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 }
 #mainSection .main .flex-table-wrapper .flex-table .flex-row .flex-cell .retoTextArea.retoEditable, #mainSection .main .flex-table-wrapper .flex-table .flex-row .flex-cell .retoTextArea[contenteditable] {
   background-color: #000;
-  color: #000;
+  color: #9091A6;
 }
 #mainSection .main .flex-table-wrapper .flex-table .flex-row .flex-cell .retoTextArea .no-pistas {
   cursor: not-allowed;
@@ -3347,13 +3347,13 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 }
 #mainSection .main .flex-table-wrapper .flex-table .flex-row .flex-cell .retoTextArea.hints-cell .edit-hints .hint-li {
   padding: 0px;
-  background-color: #000;
+  background-color: #9091A6;
   border-bottom: 3px solid white;
   display: flex;
 }
 #mainSection .main .flex-table-wrapper .flex-table .flex-row .flex-cell .retoTextArea.hints-cell .edit-hints .hint-li.editable {
   background-color: #000;
-  color: #000;
+  color: #9091A6;
 }
 #mainSection .main .flex-table-wrapper .flex-table .flex-row .flex-cell .retoTextArea.hints-cell .edit-hints .hint-li.no-pistas {
   font-style: italic;
@@ -3389,7 +3389,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   border: none;
   background: transparent;
   font-size: 16px;
-  -webkit-text-fill-color: #000 !important;
+  -webkit-text-fill-color: #9091A6 !important;
 }
 #mainSection .main .flex-table-wrapper .flex-table .flex-row .flex-cell .retoTextArea.hints-cell .edit-hints .hint-li .hiddenInputPistaEdit:focus, #mainSection .main .flex-table-wrapper .flex-table .flex-row .flex-cell .retoTextArea.hints-cell .edit-hints .hint-li .hiddenInputPistaEdit:active {
   color: white;
@@ -3413,12 +3413,12 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   color: #000;
   height: 36px;
   min-width: 0px;
-  -webkit-text-fill-color: #000 !important;
+  -webkit-text-fill-color: #9091A6 !important;
 }
 #mainSection .main .flex-table-wrapper .flex-table .flex-row .flex-cell .retoTextArea.hints-cell .add-new-hint form input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 30px #000 inset !important;
-  -webkit-text-fill-color: #000 !important;
-  color: #000;
+  -webkit-text-fill-color: #9091A6 !important;
+  color: #9091A6;
 }
 #mainSection .main .flex-table-wrapper .flex-table .flex-row .flex-cell .retoTextArea.hints-cell .add-new-hint form input:focus, #mainSection .main .flex-table-wrapper .flex-table .flex-row .flex-cell .retoTextArea.hints-cell .add-new-hint form input:active {
   color: white;
@@ -3505,7 +3505,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   padding: 5px 3vmin;
   font-family: Lato, sans-serif;
   font-size: 3vmin;
-  color: #fff;
+  color: #48C18E;
   background: white;
   margin: 10px;
   margin-top: 0px;
@@ -3517,7 +3517,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
 }
 .ranking .content .podium .podium-col .podium-rect {
   flex: 1;
-  background-color: #fff;
+  background-color: #F47E84;
   width: 100%;
   font-size: 13vmin;
   text-align: center;
@@ -3536,7 +3536,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   animation-delay: 5s;
 }
 .ranking .content .podium .podium-col .star {
-  color: #fff;
+  color: #FAC855;
   font-size: 15vmin;
   animation-delay: 1s;
 }
@@ -3568,7 +3568,7 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   position: absolute;
   width: 100%;
   height: 75px;
-  background-color: #000;
+  background-color: #9091A6;
   color: #000;
   border: 2px solid white;
 }
@@ -3581,10 +3581,10 @@ body .daterangepicker .calendar-time .hourselect option, body .daterangepicker .
   font-family: Gugi;
 }
 .ranking .ranking-table .ranking-row.myTeam {
-  background-color: #fff;
+  background-color: #F47E84;
 }
 .ranking .ranking-table .ranking-row.myTeam.won {
-  background-color: #fff;
+  background-color: #48C18E;
 }
 .ranking .ranking-table .ranking-row div {
   display: flex;
@@ -3774,7 +3774,7 @@ table.mainTable.mainTableCentered {
   display: inline-block !important;
 }
 table.mainTable tr {
-  background-color: #000;
+  background-color: #9091A6;
   border-left: 1px solid white;
 }
 table.mainTable tr:first-child, table.mainTable tr.first {
@@ -3823,16 +3823,16 @@ table.mainTable tr td.align-left {
   text-align: left;
 }
 table.mainTable tr td.complete {
-  color: #fff;
+  color: #48C18E;
 }
 table.mainTable tr td.complete .icon {
-  background-color: #fff;
+  background-color: #48C18E;
 }
 table.mainTable tr td.incomplete {
-  color: #fff;
+  color: #F47E84;
 }
 table.mainTable tr td.incomplete .icon {
-  background-color: #fff;
+  background-color: #F47E84;
 }
 table.mainTable tr td .icon {
   display: inline-block;
@@ -3990,10 +3990,10 @@ table.mainTable tr td .icon {
   transform: translateX(-6px);
 }
 #mainSection > .main.timeline #timeline-chart .requestedHints .requestedHint.success {
-  background-color: #fff;
+  background-color: #48C18E;
 }
 #mainSection > .main.timeline #timeline-chart .requestedHints .requestedHint.fail {
-  background-color: #fff;
+  background-color: #F47E84;
 }
 #mainSection > .main.timeline #timeline-chart .requestedHints .requestedHint:hover .tooltip {
   visibility: visible;
@@ -4073,10 +4073,10 @@ table.mainTable tr td .icon {
   border: 2px solid white;
 }
 #mainSection > .main.timeline #legend .puzzle-legend .hint-legend-circle.hint-legend-success, #mainSection > .main.timeline #legend .hint-legend .hint-legend-circle.hint-legend-success, #mainSection > .main.timeline #legend .door-legend .hint-legend-circle.hint-legend-success {
-  background-color: #fff;
+  background-color: #48C18E;
 }
 #mainSection > .main.timeline #legend .puzzle-legend .hint-legend-circle.hint-legend-failed, #mainSection > .main.timeline #legend .hint-legend .hint-legend-circle.hint-legend-failed, #mainSection > .main.timeline #legend .door-legend .hint-legend-circle.hint-legend-failed {
-  background-color: #fff;
+  background-color: #F47E84;
 }
 #mainSection > .main.timeline #legend .door-legend {
   height: 55px;
@@ -4223,7 +4223,7 @@ table.mainTable tr td .icon {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #fff;
+  background-color: #F47E84;
 }
 .main.resources .flex-screenshots .container:hover .overlay {
   opacity: 1;
@@ -4251,16 +4251,16 @@ table.mainTable tr td .icon {
   padding: 0;
 }
 #mainSection .main.teams .overlay-menu button.reset-team {
-  color: #fff;
+  color: #F3945E;
 }
 #mainSection .main.teams .overlay-menu button.delete-team {
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main.teams .overlay-menu button.email-team {
-  color: #fff;
+  color: #FAC855;
 }
 #mainSection .main.teams .overlay-menu button.msg-team {
-  color: #fff;
+  color: #48C18E;
 }
 #mainSection .main.teams .overlay-menu .subtext {
   text-align: left;
@@ -4386,21 +4386,21 @@ table.mainTable tr td .icon {
   color: #000;
 }
 #mainSection .main.teams .filters input[type=submit].participants-button.download-button, #mainSection .main.teams .filters button.participants-button.download-button {
-  background-color: #fff;
+  background-color: #F47E84;
   color: #000;
-  border-color: #fff;
+  border-color: #F47E84;
   border-style: solid;
 }
 #mainSection .main.teams .filters input[type=submit].participants-button.attendance-button, #mainSection .main.teams .filters button.participants-button.attendance-button {
-  background-color: #fff;
+  background-color: #48C18E;
   color: #000;
-  border-color: #fff;
+  border-color: #48C18E;
   border-style: solid;
 }
 #mainSection .main.teams .filters input[type=submit].participants-button.attendance-all-button, #mainSection .main.teams .filters button.participants-button.attendance-all-button {
-  background-color: #fff;
+  background-color: #FAC855;
   color: #000;
-  border-color: #fff;
+  border-color: #FAC855;
   border-style: solid;
 }
 #mainSection .main.teams .no-teams {
@@ -4436,17 +4436,17 @@ table.mainTable tr td .icon {
   width: 100%;
   border: none;
   font-size: 1em;
-  caret-color: #000;
-  color: #000 !important;
-  -webkit-text-fill-color: #000 !important;
+  caret-color: #a1a3af;
+  color: #a1a3af !important;
+  -webkit-text-fill-color: #a1a3af !important;
 }
 #mainSection .main.step-turnos .contenedor .turnosRight .flexBoxTurnos .turno.add-turno .turnos-picker:focus, #mainSection .main.step-turnos .contenedor .turnosRight .flexBoxTurnos .turno.add-turno .turnos-picker:active, #mainSection .main.step-turnos .contenedor .turnosRight .flexBoxTurnos .turno.add-turno .turnos-picker:-webkit-autofill:focus, #mainSection .main.step-turnos .contenedor .turnosRight .flexBoxTurnos .turno.add-turno .turnos-picker:-webkit-autofill:active {
-  color: #000 !important;
-  -webkit-text-fill-color: #000 !important;
+  color: #a1a3af !important;
+  -webkit-text-fill-color: #a1a3af !important;
 }
 #mainSection .main.step-turnos .contenedor .turnosRight .flexBoxTurnos .turno.add-turno .turnos-picker:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 30px #000 inset !important;
-  -webkit-text-fill-color: #000 !important;
+  -webkit-text-fill-color: #a1a3af !important;
 }
 #mainSection .main.step-turnos .contenedor .turnosRight .flexBoxTurnos .turno.add-turno .turnos-picker.turnos-time-picker {
   width: 150%;
@@ -4480,14 +4480,14 @@ table.mainTable tr td .icon {
   font-size: 16px;
 }
 #mainSection .main.step-turnos .contenedor .turnosRight .flexBoxTurnos .turno .little-button.more {
-  background: #fff;
+  background: #FAC855;
   right: 30px;
 }
 #mainSection .main.step-turnos .contenedor .turnosRight .flexBoxTurnos .turno .little-button.less {
-  background: #fff;
+  background: #F47E84;
 }
 #mainSection .main.step-turnos .contenedor .turnosRight .flexBoxTurnos .turno .little-button.always {
-  background: #fff;
+  background: #F3945E;
   right: 28px;
 }
 #mainSection .main.step-turnos .extraTurno {
@@ -4496,8 +4496,8 @@ table.mainTable tr td .icon {
 #mainSection .main.step-turnos .extraTurno button {
   border-radius: 25px;
   padding: 10px 20px;
-  background-color: #fff;
-  border: 2px solid #fff;
+  background-color: #48C18E;
+  border: 2px solid #48C18E;
 }
 #mainSection .main.step-turnos .ui-dialog-title {
   padding-left: 0;
@@ -4508,7 +4508,7 @@ table.mainTable tr td .icon {
 }
 #mainSection .main.step-turnos .dialog-turno .turno-form-group .material-icons {
   vertical-align: top;
-  color: #fff;
+  color: #48C18E;
 }
 #mainSection .main.step-turnos .dialog-turno .turno-form-group ::-webkit-calendar-picker-indicator {
   filter: invert(1);
@@ -4544,7 +4544,7 @@ table.mainTable tr td .icon {
   cursor: not-allowed;
 }
 #mainSection .main .flexBoxTurnos .turno.selected {
-  border: 3px solid #fff;
+  border: 3px solid #FAC855;
 }
 #mainSection .main .flexBoxTurnos .turno.turnoAlumno, #mainSection .main .flexBoxTurnos .turno.turnoProfe {
   cursor: pointer;
@@ -4557,7 +4557,7 @@ table.mainTable tr td .icon {
   cursor: pointer;
 }
 #mainSection .main .flexBoxTurnos .turno.turnoProfe.active {
-  color: #fff;
+  color: #48C18E;
 }
 #mainSection .main .flexBoxTurnos .turno.hidden:not(.always) {
   display: none;
@@ -4580,14 +4580,14 @@ table.mainTable tr td .icon {
   max-height: 40px;
 }
 #mainSection .main .flexBoxTurnos .turno .place .no-place {
-  color: #000;
+  color: #a1a3af;
   font-size: 10px;
 }
 #mainSection .main .flexBoxTurnos .turno .place .no-place em {
   opacity: 0.8;
 }
 #mainSection .main .flexBoxTurnos .turno:not(.finished) .always {
-  color: #fff;
+  color: #48C18E;
 }
 #mainSection .main .flexBoxTurnos .turno .always {
   font-size: 17px;
@@ -4618,7 +4618,7 @@ table.mainTable tr td .icon {
   }
 }
 #mainSection .main.turnos .flex-table-wrapper .flex-table .flex-row.active-turno {
-  background-color: #fff;
+  background-color: #48C18E;
 }
 #mainSection .main.turnos .flex-table-wrapper .flex-table .flex-row .flex-cell.flex-turno {
   width: 35%;
@@ -4635,7 +4635,7 @@ table.mainTable tr td .icon {
   width: 30px;
   padding: 0;
   border-radius: 50%;
-  color: #fff;
+  color: #36A2EB;
 }
 #mainSection .main.turnos .flex-table-wrapper .flex-table .flex-row .flex-cell.flex-actions .turno-btn .material-icons, #mainSection .main.turnos .flex-table-wrapper .flex-table .flex-row .flex-cell.flex-links .turno-btn .material-icons {
   font-size: 20px;
@@ -4644,7 +4644,7 @@ table.mainTable tr td .icon {
   border-right: none;
 }
 #mainSection .main.turnos .flex-table-wrapper .flex-table .flex-row .flex-cell.flex-actions .turno-btn {
-  color: #fff;
+  color: #F47E84;
 }
 #mainSection .main.turnos .flex-table-wrapper .flex-table .flex-row .flex-cell .overlay-wrapper {
   position: relative;
@@ -4702,20 +4702,20 @@ table.mainTable tr td .icon {
   --darkerpurple: #000;
   --textpurple: #000;
   --bckg: #E25C32;
-  --brightgreen: #fff;
-  --brightyellow: #fff;
-  --brightblue: #fff;
-  --brightorange: #fff;
-  --lightred: #fff;
-  --textgrey: #000;
-  --purpleedit: #000;
+  --brightgreen: #48C18E;
+  --brightyellow: #FAC855;
+  --brightblue: #36A2EB;
+  --brightorange: #F3945E;
+  --lightred: #F47E84;
+  --textgrey: #a1a3af;
+  --purpleedit: #9091A6;
   --primary: #fff;
-  --secondary: #fff;
-  --success: #fff;
-  --info: #fff;
-  --warning: #fff;
-  --danger: #fff;
-  --light: #000;
+  --secondary: #36A2EB;
+  --success: #48C18E;
+  --info: #FAC855;
+  --warning: #F3945E;
+  --danger: #F47E84;
+  --light: #9091A6;
   --dark: #000;
 }
 
@@ -4943,13 +4943,13 @@ select.light:-webkit-autofill, input.light:not([type=checkbox]):-webkit-autofill
 select.light:focus, select.light:active, input.light:not([type=checkbox]):focus, input.light:not([type=checkbox]):active {
   font-family: Lato !important;
   background-color: white;
-  color: #fff;
-  -webkit-text-fill-color: #fff !important;
-  border-color: #fff !important;
+  color: #F47E84;
+  -webkit-text-fill-color: #F47E84 !important;
+  border-color: #F47E84 !important;
 }
 select.light:focus:-webkit-autofill, select.light:active:-webkit-autofill, input.light:not([type=checkbox]):focus:-webkit-autofill, input.light:not([type=checkbox]):active:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 30px white inset !important;
-  -webkit-text-fill-color: #fff !important;
+  -webkit-text-fill-color: #F47E84 !important;
   font-family: Lato !important;
 }
 select.light option, input.light:not([type=checkbox]) option {

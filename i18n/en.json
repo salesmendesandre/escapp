@@ -195,7 +195,7 @@
             "passwordsDoNotMatch": "Passwords do not match",
             "problemSendingEmail": "There was a problem with your request",
             "resetPasswordSent": "We have sent you an email with a link to reset your password",
-            "resetPasswordUserNotFound": "Sorry, you are not registered in escapp",
+            "resetPasswordUserNotFound": "Sorry, you are not registered in app",
             "successActivatingTurno": "Shift successfully activated/deactivated",
             "successCreatingER": "Escape Room successfully set up",
             "successCreatingHint": "Hint successfully created",
@@ -250,7 +250,7 @@
             "description": "Description",
             "authentication": "Whether the authentication parameters are correct or not",
             "authenticationAPI": "Authentication",
-            "authenticationAPIDesc": "This endpoint allows you to authenticate in escapp and verify whether you are allowed to participate in an escape room at a given time",
+            "authenticationAPIDesc": "This endpoint allows you to authenticate in app and verify whether you are allowed to participate in an escape room at a given time",
             "method": "Method",
             "email": "User e-mail",
             "password": "User password",
@@ -260,9 +260,9 @@
             "response": "Response",
             "sampleResponse": "Sample response",
             "puzzleAPI": "Puzzles",
-            "puzzleAPIDesc": "This endpoint allows you to solve puzzles remotely without a need to access escapp's team interface",
+            "puzzleAPIDesc": "This endpoint allows you to solve puzzles remotely without a need to access app's team interface",
             "startAPI": "Participation",
-            "startAPIDesc": "This endpoint allows you to start participating in an escape room without a need to hit the start button in escapp",
+            "startAPIDesc": "This endpoint allows you to start participating in an escape room without a need to hit the start button in app",
             "erState": "Object indicating the current state of the escape room for the team. It has two properties: <code>puzzlesSolved</code>, which contains an array indicating which puzzles have been completed by the team (including the puzzle's name, number, solution, and success message);  <code>hintsAllowed</code>, a boolean indicating whether the team can request any more hints; <code>progress</code>, the percentage of puzzles solved, and <code>score</code>, the total score of the participant according to the grading rubric set up by the teacher.",
             "code": {
                 "OK": "The answer provided for the puzzle is correct",
@@ -502,7 +502,7 @@
                 "turnos": "Shifts"
             },
             "puzzles": {
-                "explanation": "In this step, you can specify the different puzzles that make up the escape room. Bear in mind that they must follow a linear structure, which means that in order to solve a puzzle, students need to have solved the previous one before. You need to specify the name and description of each puzzle, as well as its solution. If you check the automatic monitorization option for any puzzle, it will not be displayed in the team interface for students to solve. Instead, you need to use escapp's API in order to solve it. In addition, you may add automatic hints for each puzzle, which will be handed to students when they get stuck and ask for help.",
+                "explanation": "In this step, you can specify the different puzzles that make up the escape room. Bear in mind that they must follow a linear structure, which means that in order to solve a puzzle, students need to have solved the previous one before. You need to specify the name and description of each puzzle, as well as its solution. If you check the automatic monitorization option for any puzzle, it will not be displayed in the team interface for students to solve. In addition, you may add automatic hints for each puzzle, which will be handed to students when they get stuck and ask for help.",
                 "addNewHint": "add hint",
                 "addNewCategory": "add category",
                 "addNewPuzzles": "add puzzle",
