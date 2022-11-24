@@ -1034,7 +1034,7 @@
             "doNotMatch": "Oops! passwords must match",
             "fillIn": "Both fields password and password confirmation must be filled in",
             "invalidDNI": "Invalid ID number. Wrong format",
-            "welcome": "VESCAPE4APP - Welcome to the Escape Room management platform",
+            "welcome": "VESCAPE4ALL - Welcome to the Escape Room management platform",
             "wrongLetterDNI": "Oops! Invalid ID number, letter must match the number combination",
             "notFound": "User not found",
             "ensureRegistered": "An error occurred. Please make sure you've correctly registered in the Escape Room",
