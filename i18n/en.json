@@ -273,7 +273,7 @@
                 "PARTICIPANT": "You are a participant of this escape room and the shift you signed up for is active",
                 "TOO_LATE": "You are a participant of this escape room but the shift you signed up for is finished or you have run out of time",
                 "NOT_ACTIVE": "You are a participant of this escape room but the shift you signed up for has not started yet",
-                "NOT_STARTED": "You are a participant of this escape room but you have not hit the start button on the escapp platform or started via API",
+                "NOT_STARTED": "You are a participant of this escape room but you have not hit the start button on the vescape4all platform or started via API",
                 "NOT_A_PARTICIPANT": "You are not a participant of this escape room",
                 "AUTHOR": "You are the author of this escape room"
             },
@@ -281,7 +281,7 @@
                 "PARTICIPANT": "You have successfully started the escape room",
                 "TOO_LATE": "The shift you signed up for is finished or you have run out of time",
                 "NOT_ACTIVE": "The shift you signed up for has not started yet",
-                "NOT_STARTED": "You have not hit the start button on the escapp platform",
+                "NOT_STARTED": "You have not hit the start button on the vescape4all platform",
                 "NOT_A_PARTICIPANT": "You are not a participant of this escape room",
                 "AUTHOR": "You are the author of this escape room"
             },
@@ -732,9 +732,9 @@
         "shareIntro": "You can use this link to share the puzzle with your students",
         "edit": "edit",
         "delete": "delete",
-        "outside": "Other resources out of the scope of escapp",
+        "outside": "Other resources out of the scope of vescape4all",
         "fullscreen": "Share in fullscreen",
-        "intro": "The collection of puzzles below allows you to connect digital puzzle applications with the puzzle outline that you defined for your escapp escape room. You can customize their settings and share them with your students as a part of your escape room."
+        "intro": "The collection of puzzles below allows you to connect digital puzzle applications with the puzzle outline that you defined for your vescape4all escape room. You can customize their settings and share them with your students as a part of your escape room."
     },
     "participant": {
         "attendanceSaved": "Attendance successfully saved",
@@ -863,7 +863,7 @@
             "turnos": "Shifts",
             "video": "Video",
             "share": "Share",
-            "forceLang": "Force specific language in escapp for the participants of this escape room"
+            "forceLang": "Force specific language in vescape4all for the participants of this escape room"
 
         }
     },
@@ -1040,7 +1040,7 @@
             "ensureRegistered": "An error occurred. Please make sure you've correctly registered in the Escape Room",
             "emailConfirm":"Please, confirm your e-mail address, by clicking the 'confirm' button below",
             "emailConfirmButton":"confirmar",
-            "emailResetPassword1":"If you are receiving this e-mail is because you reset your password in escapp.",
+            "emailResetPassword1":"If you are receiving this e-mail is because you reset your password in vescape4all.",
             "emailResetPassword2":"This is the link to reset your password:"
 
         },
